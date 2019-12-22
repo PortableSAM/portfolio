@@ -1,5 +1,5 @@
 import React from "react";
-import { About, Skill, Projects, Contact } from "../Nav/index";
+import { About, Projects, Contact } from "../Nav/index";
 import LandingPage from "./../Landing/LandingPage";
 import { BrowserRouter as Router, Link, Route } from "react-router-dom";
 
@@ -21,9 +21,6 @@ export default class Layout extends React.Component {
                   <Link to="/about">About</Link>
                 </li>
                 <li>
-                  <Link to="/skill">Skill</Link>
-                </li>
-                <li>
                   <Link to="/projects">Projects</Link>
                 </li>
                 <li>
@@ -35,7 +32,6 @@ export default class Layout extends React.Component {
           <div className="container">
             <Route exact path="/" component={LandingPage} />
             <Route path="/about" component={About} />
-            <Route path="/skill" component={Skill} />
             <Route path="/Projects" component={Projects} />
             <Route path="/contact" component={Contact} />
           </div>
