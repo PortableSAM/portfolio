@@ -9,7 +9,7 @@ export default class Layout extends React.Component {
       <Router>
         <div>
           <nav>
-            <div className="nav-wrapper">
+            <div className="nav-wrapper deep-purple lighten-4">
               <div
                 className="brand-logo"
                 style={{ marginLeft: "auto", paddingLeft: "1em" }}
