@@ -24,10 +24,18 @@ export default class Projects extends React.Component {
                     <p>현재 위치 날씨 정보 구현</p>
                   </td>
                   <td className="link">
-                    <a href="##">
+                    <a
+                      href="https://currentweatherapp-b65b2.web.app/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <i className="fas fa-external-link-alt" />
                     </a>
-                    <a href="##">
+                    <a
+                      href="https://github.com/PortableSAM/CurrentWthrApp"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <i className="fab fa-github-square" />
                     </a>
                   </td>
@@ -62,10 +70,10 @@ export default class Projects extends React.Component {
                     <p>국내 개봉영화 정보에 대한 리스트</p>
                   </td>
                   <td className="link">
-                    <a href="##">
+                    <a href="##" target="_blank" rel="noopener noreferrer">
                       <i className="fas fa-external-link-alt" />
                     </a>
-                    <a href="##">
+                    <a href="##" target="_blank" rel="noopener noreferrer">
                       <i className="fab fa-github-square" />
                     </a>
                   </td>
@@ -81,10 +89,10 @@ export default class Projects extends React.Component {
                     <p>React와 Firebase RealTimeDatabase를 이용하여 제작</p>
                   </td>
                   <td className="link">
-                    <a href="##">
+                    <a href="##" target="_blank" rel="noopener noreferrer">
                       <i className="fas fa-external-link-alt" />
                     </a>
-                    <a href="##">
+                    <a href="##" target="_blank" rel="noopener noreferrer">
                       <i className="fab fa-github-square" />
                     </a>
                   </td>
