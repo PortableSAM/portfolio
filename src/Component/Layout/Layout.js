@@ -23,7 +23,7 @@ export default class Layout extends React.Component {
                 <li>
                   <Link to="/projects">Projects</Link>
                 </li>
-                <li>
+                <li style={{ marginRight: "20px" }}>
                   <Link to="/contact">Contact</Link>
                 </li>
               </ul>
