@@ -5,7 +5,7 @@ export default class LandingPage extends React.Component {
   render() {
     return (
       <div className="container">
-        <div className="card-panel z-depth-3">
+        <div className="card-panel z-depth-3 land">
           <span>
             <h3 className="teal-text">Han Saem's Portfolio</h3>
           </span>
