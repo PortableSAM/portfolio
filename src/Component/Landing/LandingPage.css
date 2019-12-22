@@ -1,4 +1,12 @@
 .card-panel {
   margin-top: 30%;
   text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+}
+
+.teal-text {
+  margin: 0.05em;
+  padding: 0.1em;
+  font-size: 4rem;
 }
