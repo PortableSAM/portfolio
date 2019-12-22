@@ -14,7 +14,7 @@ export default class About extends React.Component {
               </div>
               <hr style={{ borderTop: "3px solid #076585" }} />
               <div className="my-text">
-                <p>개발 공부를 30대에 늦게 시작했지만 배움에는 늦음이 없다.</p>
+                <p>늦게 시작했지만 배움에는 늦음이 없다.</p>
               </div>
             </div>
             <div className="col s8">

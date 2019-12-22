@@ -6,7 +6,13 @@ export default class Expreience extends React.Component {
     return (
       <div className="content">
         <div className="col s=5 ex-y">
-          <p style={{ fontSize: "15px" }}>
+          <p
+            style={{
+              fontSize: "20px",
+              marginTop: "15px",
+              marginBottom: "25px"
+            }}
+          >
             {this.props.startYear} ~ {this.props.endYear}
           </p>
         </div>
