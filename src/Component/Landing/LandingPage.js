@@ -14,6 +14,7 @@ export default class LandingPage extends React.Component {
             <i className="fab fa-html5" style={{ fontSize: "4em" }} />
             <i className="fab fa-css3-alt" style={{ fontSize: "4em" }} />
             <i className="fab fa-js-square" style={{ fontSize: "4em" }} />
+            <i className="fab fa-react" style={{ fontSize: "4em" }} />
           </div>
         </div>
       </div>
