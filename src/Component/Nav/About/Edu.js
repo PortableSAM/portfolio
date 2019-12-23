@@ -5,7 +5,7 @@ export default class Edu extends React.Component {
   render() {
     return (
       <div className="content">
-        <div className="col s=5 edu-y">
+        <div className=" edu-y">
           <p
             style={{
               fontSize: "20px",
@@ -16,7 +16,7 @@ export default class Edu extends React.Component {
             {this.props.startYear} ~ {this.props.endYear}
           </p>
         </div>
-        <div className="col s=7 edu-descript">
+        <div className="edu-descript">
           <p
             style={{
               fontSize: "20px",

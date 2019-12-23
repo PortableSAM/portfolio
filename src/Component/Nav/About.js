@@ -6,18 +6,18 @@ export default class About extends React.Component {
   render() {
     return (
       <div className="content">
-        <div className="card-panel deep-purple lighten-4 z-depth-3 about">
-          <div className="row about-row">
-            <div className="col s4">
+        <div className="about">
+          <div className="about-row">
+            <div>
               <div className="my-img">
-                <img className="responsive-img" src={img} alt="img" />
+                <img src={img} alt="img" />
               </div>
               <hr style={{ borderTop: "3px solid #076585" }} />
               <div className="my-text">
                 <p>늦게 시작했지만 배움에는 늦음이 없다.</p>
               </div>
             </div>
-            <div className="col s8">
+            <div>
               <div className="edu-contents">
                 <h4>Education</h4>
                 <Edu

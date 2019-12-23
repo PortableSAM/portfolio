@@ -5,7 +5,7 @@ export default class Expreience extends React.Component {
   render() {
     return (
       <div className="content">
-        <div className="col s=5 ex-y">
+        <div className="ex-y">
           <p
             style={{
               fontSize: "20px",
@@ -16,7 +16,7 @@ export default class Expreience extends React.Component {
             {this.props.startYear} ~ {this.props.endYear}
           </p>
         </div>
-        <div className="col s=7 ex-descript">
+        <div className="ex-descript">
           <p
             style={{
               fontSize: "20px",

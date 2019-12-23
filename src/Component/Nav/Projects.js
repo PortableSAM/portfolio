@@ -6,8 +6,8 @@ export default class Projects extends React.Component {
     return (
       <div>
         <section className="pro_section">
-          <div className="card-panel">
-            <table className="responsive-table highlight">
+          <div className="">
+            <table>
               <thead>
                 <tr>
                   <th>Title</th>

@@ -5,9 +5,9 @@ export default class LandingPage extends React.Component {
   render() {
     return (
       <div className="container">
-        <div className="card-panel z-depth-3 land">
+        <div className="land">
           <span>
-            <h3 className="teal-text">Han Saem's Portfolio</h3>
+            <h3>Han Saem's Portfolio</h3>
           </span>
           <hr />
           <div className="skill-icon">

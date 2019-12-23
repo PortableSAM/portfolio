@@ -11,7 +11,7 @@ export default class Contact extends React.Component {
           <hr className="contact-hr" style={{ width: "50%" }} />
         </div>
         <div className="contact-content">
-          <div className="col s12 m6 imgbox">
+          <div className="imgbox">
             <img src={img} alt="img" />
           </div>
           <div className="content-item">
