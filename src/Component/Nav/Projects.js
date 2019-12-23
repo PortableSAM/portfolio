@@ -21,7 +21,7 @@ export default class Projects extends React.Component {
                   <td>Current Weather</td>
                   <td className="descript">
                     <i className="fab fa-react" />
-                    <p>현재 위치 날씨 정보 구현</p>
+                    <p>위치기반 날씨 정보 구현</p>
                   </td>
                   <td className="link">
                     <a
@@ -44,7 +44,7 @@ export default class Projects extends React.Component {
                   <td>Clock</td>
                   <td className="descript">
                     <i className="fab fa-react" />
-                    <p>현재 날짜와 시간 구현</p>
+                    <p>현재 날짜와 시간 출력</p>
                   </td>
                   <td className="link">
                     <a
@@ -70,10 +70,18 @@ export default class Projects extends React.Component {
                     <p>국내 개봉영화 정보에 대한 리스트</p>
                   </td>
                   <td className="link">
-                    <a href="##" target="_blank" rel="noopener noreferrer">
+                    <a
+                      href="https://movielistapp-b39ef.firebaseapp.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <i className="fas fa-external-link-alt" />
                     </a>
-                    <a href="##" target="_blank" rel="noopener noreferrer">
+                    <a
+                      href="https://github.com/PortableSAM/Movie_App"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <i className="fab fa-github-square" />
                     </a>
                   </td>
