@@ -22,3 +22,8 @@
   width: 100px;
   height: 22px;
 }
+
+.link:hover {
+  color: #c07777;
+  transition: 0.7s;
+}
