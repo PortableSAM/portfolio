@@ -1,0 +1,45 @@
+.contactPage {
+}
+
+.contact-hr {
+  border-top: 1px solid #bbbbbb;
+}
+.contact-content {
+  margin: auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.contact-content img {
+  margin: 20px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.imgbox {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.content-item {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.content-item h4 {
+  margin: auto;
+  padding: 10px;
+}
+.content-item i {
+  margin: auto;
+  padding-right: 10px;
+}
