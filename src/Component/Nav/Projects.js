@@ -86,25 +86,6 @@ export default class Projects extends React.Component {
                     </a>
                   </td>
                 </tr>
-                <tr>
-                  <td>To Do List</td>
-                  <td className="descript">
-                    <i className="fab fa-react" />
-                    <img
-                      src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Firebase_Logo.png"
-                      alt="firebase"
-                    />
-                    <p>React와 Firebase RealTimeDatabase를 이용하여 제작</p>
-                  </td>
-                  <td className="link">
-                    <a href="##" target="_blank" rel="noopener noreferrer">
-                      <i className="fas fa-external-link-alt" />
-                    </a>
-                    <a href="##" target="_blank" rel="noopener noreferrer">
-                      <i className="fab fa-github-square" />
-                    </a>
-                  </td>
-                </tr>
               </tbody>
             </table>
           </div>
