@@ -1,5 +1,6 @@
 import React from "react";
 import { About, Contact } from "../Nav/index";
+import { CurrentWthrApp, Clock, MovieList } from "../Nav/Project/index";
 import LandingPage from "./../Landing/LandingPage";
 import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
 import "./Layout.css";
