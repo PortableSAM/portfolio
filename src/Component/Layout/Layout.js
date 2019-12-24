@@ -9,11 +9,11 @@ export default class Layout extends React.Component {
     return (
       <Router>
         <div>
-          <nav className="nav-wrapper deep-purple lighten-4">
-            <div className="brand-logo">
+          <nav>
+            <div>
               <Link to="/">HanSame's Pofol</Link>
             </div>
-            <ul id="nav-mobile" className="right hide-on-med-and-down">
+            <ul>
               <li>
                 <Link to="/about">About</Link>
               </li>
@@ -26,7 +26,7 @@ export default class Layout extends React.Component {
             </ul>
           </nav>
 
-          <div className="container">
+          <div>
             <Route exact path="/" component={LandingPage} />
             <Route path="/about" component={About} />
             <Route path="/Projects" component={Projects} />
