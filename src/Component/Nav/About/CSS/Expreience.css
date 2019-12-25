@@ -1,9 +1,17 @@
 .ex-y {
-  width: 30%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
   text-align: left;
 }
 .ex-descript {
-  width: 70%;
-  margin-bottom: 20px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
   text-align: left;
+}
+.ex-y p,
+.ex-descript p {
+  margin: 10px;
+  padding: 5px;
 }

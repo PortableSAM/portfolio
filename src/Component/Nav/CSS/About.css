@@ -1,41 +1,69 @@
-.about {
-  margin-top: 5%;
+.a-container {
+  margin: auto;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgba(211, 211, 211, 0.342);
+}
+.a-container h2 {
+  margin: 5px;
+  padding: 5px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding-left: 10px;
 }
 
-.about-row {
-  margin-top: 5%;
-  text-align: center;
-  font-family: "Oswald", sans-serif;
-  font-weight: bold;
+.a-container hr {
+  margin: 5px;
+  width: 20%;
+  border: 1px solid lightgray;
 }
 
-.edu-contents {
-  display: flex;
-  flex-flow: column nowrap;
-}
-
-.edu-contents h4,
-.se-contents h4 {
-  margin: 10px 0 20px;
-  text-align: left;
-}
-.se-contents {
-  display: flex;
-  flex-flow: column nowrap;
-}
-.my-img {
+.container {
   margin: 10px;
+  margin-top: 50px;
   padding: 5px;
 }
-.my-img img {
-  width: 240px;
-  height: 240px;
-  border-radius: 2em;
-}
 
-.my-text {
+.profile {
   margin: 10px;
   padding: 5px;
-  font-size: 2em;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
   font-family: "Yeon Sung", cursive;
+  font-size: 1.5em;
+}
+.profile hr {
+  margin: 10px;
+  width: 60%;
+}
+
+.my-img {
+  margin-bottom: 10px;
+}
+
+.my-img img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+.my-text {
+  margin: 0;
+  padding: 5px;
+  width: 60%;
+}
+
+.my-text p {
+  margin: 0;
+  padding: 0px;
+}
+
+@media (max-width: 450px) {
+  .a-container hr {
+    width: 100%;
+  }
+  .my-text {
+    width: 100%;
+    text-align: center;
+  }
 }
