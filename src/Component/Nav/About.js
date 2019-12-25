@@ -10,7 +10,7 @@ export default class About extends React.Component {
       <Container>
         <div className="a-container">
           <h2>About Me</h2>
-          <hr />
+
           <Row>
             <Col sm={4}>
               <div className="profile">
@@ -24,17 +24,17 @@ export default class About extends React.Component {
               </div>
             </Col>
             <Col sm={8}>
-              <div>
-                <div className="edu-contents">
-                  <h4>Education</h4>
-                  <Edu
-                    startYear={2004}
-                    endYear={2007}
-                    schoolName={"YongSan Technical High School"}
-                    Department={"Electron department"}
-                  />
-                </div>
-                <hr style={{ borderTop: "3px dottod #076585" }} />
+              <div className="edu-contents">
+                <h4>Education</h4>
+                <Edu
+                  startYear={2004}
+                  endYear={2007}
+                  schoolName={"YongSan Technical High School"}
+                  Department={"Electron department"}
+                />
+                <hr
+                  style={{ borderTop: "3px dottod #076585", width: "100%" }}
+                />
                 <h4>Social Experience</h4>
                 <Expreience
                   startYear={2018}

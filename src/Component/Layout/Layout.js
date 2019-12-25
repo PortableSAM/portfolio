@@ -10,7 +10,7 @@ export default class Layout extends React.Component {
   render() {
     return (
       <Router>
-        <div>
+        <div style={{ textAlign: "-webkit-center" }}>
           <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Navbar.Brand>
               <Link className="navbar-brand" to="/">
