@@ -1,15 +1,15 @@
 import React from "react";
 import { Jumbotron } from "react-bootstrap";
-import "./Clock.css";
+import "./Projects.css";
 
 function CurrentWthrApp() {
   return (
-    <div className="clock-container">
-      <div className="clock-title">
+    <div className="p-container">
+      <div className="p-title">
         <h2>Movie List</h2>
         <hr />
       </div>
-      <div className="clock-content">
+      <div className="p-content">
         <Jumbotron
           style={{
             margin: "auto",
@@ -18,7 +18,7 @@ function CurrentWthrApp() {
             justifyContent: "space-around"
           }}
         >
-          <div className="clock-text">
+          <div className="p-text">
             <h4>Development environment</h4>
             <ul>
               <li>- OS: Windows</li>
@@ -27,13 +27,13 @@ function CurrentWthrApp() {
               <li>- Library: React.JS</li>
             </ul>
           </div>
-          <div className="clock-text">
+          <div className="p-text">
             <h4>Use Open API</h4>
             <ul>
               <li>- Kobis Open API</li>
             </ul>
           </div>
-          <div className="clock-text">
+          <div className="p-text">
             <h4>Development Platform</h4>
             <ul>
               <li>- Firebase</li>

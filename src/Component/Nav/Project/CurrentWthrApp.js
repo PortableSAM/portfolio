@@ -1,15 +1,15 @@
 import React from "react";
 import { Jumbotron } from "react-bootstrap";
-import "./CWA.css";
+import "./Projects.css";
 
 function CurrentWthrApp() {
   return (
-    <div className="cwa-container">
-      <div className="cwa-title">
+    <div className="p-container">
+      <div className="p-title">
         <h2>Current Weather App</h2>
         <hr />
       </div>
-      <div className="cwa-content">
+      <div className="p-content">
         <Jumbotron
           style={{
             margin: "auto",
@@ -18,7 +18,7 @@ function CurrentWthrApp() {
             justifyContent: "space-around"
           }}
         >
-          <div className="cwa-text">
+          <div className="p-text">
             <h4>Development environment</h4>
             <ul>
               <li>- OS: Windows</li>
@@ -27,13 +27,13 @@ function CurrentWthrApp() {
               <li>- Library: React.JS</li>
             </ul>
           </div>
-          <div className="cwa-text">
+          <div className="p-text">
             <h4>Use Open API</h4>
             <ul>
               <li>- OpenWeatherMap</li>
             </ul>
           </div>
-          <div className="cwa-text">
+          <div className="p-text">
             <h4>Development Platform</h4>
             <ul>
               <li>- Firebase Hosting</li>
