@@ -1,0 +1,47 @@
+.container {
+  width: 400px;
+  height: 200px;
+  margin: 10px;
+  margin-top: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.land-body {
+  display: flex;
+  justify-content: center;
+}
+
+.land {
+  width: 400px;
+  text-align: center;
+  align-self: center;
+}
+
+.h3,
+h3 {
+  margin: 5px;
+}
+
+.skill-icon {
+  display: flex;
+  justify-content: space-around;
+}
+
+i.fab:nth-child(1) {
+  font-size: 4em;
+  color: #dc3545;
+}
+i.fab:nth-child(2) {
+  font-size: 4em;
+  color: #007bff;
+}
+i.fab:nth-child(3) {
+  font-size: 4em;
+  color: #ffc107;
+}
+i.fab:nth-child(4) {
+  font-size: 4em;
+  color: #17a2b8;
+}
