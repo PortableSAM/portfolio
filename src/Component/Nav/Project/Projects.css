@@ -67,6 +67,7 @@
   color: darkgray;
   transition: 1.2s;
 }
+/* Mobile Screen */
 @media screen and (max-width: 450px) {
   .p-container {
     margin: 20px 10px 10px;
@@ -94,6 +95,8 @@
     background-color: lightgray;
   }
 }
+
+/* Tablet Screen */
 
 @media screen and (min-width: 450px) and (max-width: 1024px) {
   .jumbotron {
