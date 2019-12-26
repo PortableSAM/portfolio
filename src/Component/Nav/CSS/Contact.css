@@ -48,6 +48,16 @@
   }
 
   .c-container {
-    width: 95%;
+    width: 310px;
+  }
+
+  .contact-text h4,
+  .contact-text i {
+    padding: 0;
+    font-size: 15px;
+  }
+
+  .contact-text i {
+    padding-right: 10px;
   }
 }
