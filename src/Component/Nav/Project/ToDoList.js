@@ -6,7 +6,7 @@ function CurrentWthrApp() {
   return (
     <div className="p-container">
       <div className="p-title">
-        <h2>To Do List(with React and Firebase</h2>
+        <h2>To Do List(with React and Firebase)</h2>
         <hr />
       </div>
       <div className="p-content">
