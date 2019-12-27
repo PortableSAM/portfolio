@@ -1,0 +1,38 @@
+.container {
+  margin-top: 100px;
+}
+
+.skill-icon {
+  display: flex;
+  justify-content: space-around;
+  font-size: 4em;
+}
+
+.land span {
+  display: flex;
+  justify-content: center;
+  font-family: "Oswald", Arial, Helvetica, sans-serif;
+}
+.land h3 {
+  margin: auto;
+}
+.land hr {
+  border-top: 2px solid lightslategray;
+  width: 80%;
+}
+
+.fa-html5 {
+  color: #e15f41;
+}
+
+.fa-css3-alt {
+  color: #778beb;
+}
+
+.fa-js-square {
+  color: #f5cd79;
+}
+
+.fa-react {
+  color: #3dc1d3;
+}
