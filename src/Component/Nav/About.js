@@ -1,5 +1,5 @@
 import React from "react";
-import "./CSS/About.css";
+//import "./CSS/About.css";
 import img from "../Nav/About/Img/img";
 import { Edu, Expreience } from "./About/index";
 import { Container, Row, Col } from "react-bootstrap";

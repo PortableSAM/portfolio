@@ -1,5 +1,5 @@
 import React from "react";
-import "./CSS/Contact.css";
+//import "./CSS/Contact.css";
 import img from "./About/Img/img";
 import { Container, Image } from "react-bootstrap";
 

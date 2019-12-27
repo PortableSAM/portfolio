@@ -1,6 +1,6 @@
 import React from "react";
 import { Jumbotron } from "react-bootstrap";
-import "./Projects.css";
+//import "./Projects.css";
 
 function CurrentWthrApp() {
   return (

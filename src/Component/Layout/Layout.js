@@ -8,7 +8,7 @@ import {
 } from "../Nav/Project/index";
 import LandingPage from "./../Landing/LandingPage";
 import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
-import "./Layout.css";
+//import "./Layout.css";
 import { Nav, Navbar, NavDropdown } from "react-bootstrap";
 
 export default class Layout extends React.Component {

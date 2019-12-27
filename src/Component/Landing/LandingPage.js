@@ -1,5 +1,5 @@
 import React from "react";
-import "./LandingPage.css";
+//import "./LandingPage.css";
 import { Container } from "react-bootstrap";
 
 export default class LandingPage extends React.Component {
