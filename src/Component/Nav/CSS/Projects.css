@@ -1,0 +1,45 @@
+.col-lg-4 > h2:nth-child(1) {
+  text-align: left;
+  margin: 0px;
+  padding: 5px;
+}
+
+.col-lg-4 {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+/*
+.jumbotron > div:nth-child(1) > div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+*/
+
+.jumbotron ul {
+  list-style: none;
+}
+.col-lg-8 {
+  display: flex;
+  justify-content: center;
+  /*! align-items: center; */ /*! flex-direction: row; */
+  font-size: 2.5em;
+  justify-content: space-around;
+}
+.col-lg-8 > p:nth-child(1) {
+  margin: 0;
+  align-self: center;
+}
+.col-lg-8 > p:nth-child(2) {
+  margin: 0;
+  align-self: center;
+}
+
+.col-lg-8 i {
+  color: #343a40;
+}
+.col-lg-8 i:hover {
+  color: #6698ce;
+  transition: 1s;
+}

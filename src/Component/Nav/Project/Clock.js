@@ -1,24 +1,21 @@
 import React from "react";
-import { Jumbotron } from "react-bootstrap";
-//import "./Projects.css";
+import { Jumbotron, Container, Row, Col } from "react-bootstrap";
+import "../CSS/Projects.css";
 
-function CurrentWthrApp() {
+function Clock() {
   return (
-    <div className="p-container">
-      <div className="p-title">
-        <h2>Clock App</h2>
-        <hr />
-      </div>
-      <div className="p-content">
-        <Jumbotron
-          style={{
-            margin: "auto",
-            display: "flex",
-            padding: "5px",
-            justifyContent: "space-around"
-          }}
-        >
-          <div className="p-text">
+    <Container>
+      <Row>
+        <Col lg={4} md={"auto"} sm={"auto"}>
+          <h2> Clock App</h2>
+        </Col>
+        <Col></Col>
+        <Col></Col>
+      </Row>
+      <hr style={{ borderTop: "2px solid #343a40" }} />
+      <Jumbotron style={{ marginBottom: "0" }}>
+        <Row>
+          <Col lg={4} md={"auto"} sm={"auto"}>
             <h4>Development environment</h4>
             <ul>
               <li>- OS: Windows</li>
@@ -26,25 +23,28 @@ function CurrentWthrApp() {
               <li>- Language: JavaScript</li>
               <li>- Library: React.JS</li>
             </ul>
-          </div>
-          <div className="p-text">
+          </Col>
+          <Col lg={4} md={"auto"} sm={"auto"}>
             <h4>Use Third Party Library</h4>
             <ul>
               <li>- Moment.JS</li>
             </ul>
-          </div>
-          <div className="p-text">
+          </Col>
+          <Col lg={4} md={"auto"} sm={"auto"}>
             <h4>Development Platform</h4>
             <ul>
               <li>- gh-pages Hosting</li>
             </ul>
-          </div>
-        </Jumbotron>
-        <hr />
-        <div className="link-icon">
+          </Col>
+        </Row>
+      </Jumbotron>
+      <hr style={{ borderTop: "2px solid #343a40" }} />
+      <Row>
+        <Col></Col>
+        <Col lg={8} md={"auto"} sm={"auto"}>
           <p>
             <a
-              href="https://portablesam.github.io/p-App/"
+              href="https://portablesam.github.io/Clock-App/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -53,17 +53,18 @@ function CurrentWthrApp() {
           </p>
           <p>
             <a
-              href="https://github.com/PortableSAM/p-App"
+              href="https://github.com/PortableSAM/Clock-App"
               target="_blank"
               rel="noopener noreferrer"
             >
               <i className="fab fa-github-square" />
             </a>
           </p>
-        </div>
-      </div>
-    </div>
+        </Col>
+        <Col></Col>
+      </Row>
+    </Container>
   );
 }
 
-export default CurrentWthrApp;
+export default Clock;
