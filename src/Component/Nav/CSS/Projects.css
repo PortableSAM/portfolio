@@ -35,7 +35,23 @@
   margin: 0;
   align-self: center;
 }
+.col-lg-8 > p:nth-child(1) > a:nth-child(1) {
+  color: #343a40;
+}
+.col-lg-8 > p:nth-child(2) > a:nth-child(1) {
+  color: #343a40;
+}
 
+.col-lg-8 > p:nth-child(1) > a:nth-child(1) :hover {
+  color: #6698ce;
+  transition: 1s;
+}
+.col-lg-8 > p:nth-child(2) > a:nth-child(1) :hover {
+  color: #6698ce;
+  transition: 1s;
+}
+
+/*
 .col-lg-8 i {
   color: #343a40;
 }
@@ -43,3 +59,4 @@
   color: #6698ce;
   transition: 1s;
 }
+*/

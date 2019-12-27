@@ -8,9 +8,12 @@
 .skill-icon {
   display: flex;
   justify-content: space-around;
-  font-size: 4em;
+  font-size: 2em;
 }
 
+.land {
+  width: 400px;
+}
 .land span {
   display: flex;
   justify-content: center;

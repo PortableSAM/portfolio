@@ -10,7 +10,7 @@ export default class LandingPage extends React.Component {
           <div className="LP">
             <Row>
               <Col></Col>
-              <Col lg={"8"} sm={"auto"}>
+              <Col lg={8} sm={"auto"}>
                 <div className="land ">
                   <span>
                     <h3>Han Saem's Portfolio</h3>
