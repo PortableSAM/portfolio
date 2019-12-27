@@ -8,7 +8,7 @@ import {
 } from "../Nav/Project/index";
 import LandingPage from "./../Landing/LandingPage";
 import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
-//import "./Layout.css";
+import "./Layout.css";
 import { Nav, Navbar, NavDropdown } from "react-bootstrap";
 
 export default class Layout extends React.Component {
@@ -32,15 +32,13 @@ export default class Layout extends React.Component {
                   Contact
                 </Link>
                 <NavDropdown title="Project" id="collasible-nav-dropdown">
-                  <div className="drop-menu">
-                    <Link to="/cwa">Current Weather App</Link>
-                    <NavDropdown.Divider />
-                    <Link to="/clock">Clock</Link>
-                    <NavDropdown.Divider />
-                    <Link to="/movielist">Movie List</Link>
-                    <NavDropdown.Divider />
-                    <Link to="/todolist">To Do List</Link>
-                  </div>
+                  <Link to="/cwa">Current Weather App</Link>
+                  <NavDropdown.Divider />
+                  <Link to="/clock">Clock</Link>
+                  <NavDropdown.Divider />
+                  <Link to="/movielist">Movie List</Link>
+                  <NavDropdown.Divider />
+                  <Link to="/todolist">To Do List</Link>
                 </NavDropdown>
               </Nav>
             </Navbar.Collapse>

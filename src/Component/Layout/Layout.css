@@ -1,0 +1,40 @@
+.dropdown-menu {
+  width: 180px;
+  text-align: left;
+}
+
+/* 요소 | http://localhost:3000/todolist */
+
+.dropdown-menu > a:nth-child(7) {
+  margin-left: 15px;
+  text-decoration: none;
+  color: lightslategray;
+  font-family: "Oswald", Arial, Helvetica, sans-serif;
+}
+
+/* 요소 | http://localhost:3000/todolist */
+
+.dropdown-menu > a:nth-child(5) {
+  margin-left: 15px;
+  text-decoration: none;
+  color: lightslategray;
+  font-family: "Oswald", Arial, Helvetica, sans-serif;
+}
+
+/* 요소 | http://localhost:3000/todolist */
+
+.dropdown-menu > a:nth-child(3) {
+  margin-left: 15px;
+  text-decoration: none;
+  color: lightslategray;
+  font-family: "Oswald", Arial, Helvetica, sans-serif;
+}
+
+/* 요소 | http://localhost:3000/todolist */
+
+.dropdown-menu > a:nth-child(1) {
+  margin-left: 15px;
+  text-decoration: none;
+  color: lightslategray;
+  font-family: "Oswald", Arial, Helvetica, sans-serif;
+}
