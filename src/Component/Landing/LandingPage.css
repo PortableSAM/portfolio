@@ -1,4 +1,7 @@
 .container {
+  margin-top: 50px;
+}
+.LP {
   margin-top: 100px;
 }
 
@@ -35,4 +38,20 @@
 
 .fa-react {
   color: #3dc1d3;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .fa-react {
+    animation: fa-react-spin infinite 15s linear;
+  }
+}
+
+@keyframes fa-react-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
