@@ -1,71 +1,54 @@
 import React from "react";
-//import "./CSS/Contact.css";
+import "./CSS/Contact.css";
 import img from "./About/Img/img";
-import { Container, Image } from "react-bootstrap";
+import { Container, Image, Col, Row } from "react-bootstrap";
 
 export default class Contact extends React.Component {
   render() {
     return (
       <Container>
-        <div className="c-container">
-          <div className="contact">
-            <h2>Contact</h2>
-            <hr />
-          </div>
-          <div className="contact-contents">
-            <div className="img-box">
-              <Image
-                src={img}
-                roundedCircle
-                style={{ width: "171px", height: "180px" }}
-              />
-            </div>
-            <div className="contact-text">
-              <h4>
-                <i className="fas fa-envelope-square" />
-                hanmti00@naver.com
-              </h4>
-              <h4>
-                <i className="fas fa-comment-dots" />
-                KakoTalk : portableSAM
-              </h4>
-              <h4>
-                <i className="fab fa-facebook-messenger" />
-                hanSaemLicht
-              </h4>
-            </div>
-          </div>
-        </div>
+        <Row>
+          <Col lg={4} md={"auto"} sm={"auto"}>
+            <h2 style={{ textAlign: "left", margin: "0", padding: "5px" }}>
+              Contact
+            </h2>
+          </Col>
+          <Col></Col>
+          <Col></Col>
+        </Row>
+        <Row>
+          <Col lg={3} md={"auto"} sm={"auto"}></Col>
+          <Col lg={6} md={"auto"} sm={"auto"}>
+            <Row>
+              <Col></Col>
+              <Col lg={8} md={"auto"} sm={"auto"}>
+                <Image
+                  src={img}
+                  roundedCircle
+                  style={{ width: "150px", height: "150px" }}
+                />
+                <Col lg={"auto"} md={"auto"} sm={"auto"}>
+                  <h4>
+                    <i className="fas fa-envelope-square" />
+                    hanmti00@naver.com
+                  </h4>
+                  <h4>
+                    <i className="fas fa-comment-dots" />
+                    KakoTalk : portableSAM
+                  </h4>
+                  <h4>
+                    <i className="fab fa-facebook-messenger" />
+                    hanSaemLicht
+                  </h4>
+                </Col>
+              </Col>
+              <Col></Col>
+            </Row>
+            <Col />
+          </Col>
+          <Col lg={3} md={"auto"} sm={"auto"}></Col>
+        </Row>
       </Container>
     );
   }
 }
-
-/*
-<div className="contactPage">
-        <div className="title">
-          <h2>Contact</h2>
-          <hr className="contact-hr" style={{ width: "50%" }} />
-        </div>
-        <div className="contact-content">
-          <div className="imgbox">
-            <img src={img} alt="img" />
-          </div>
-          <div className="content-item">
-            <h4>
-              <i className="fas fa-envelope-square" />
-              hanmti00@naver.com
-            </h4>
-            <h4>
-              <i className="fas fa-comment-dots" />
-              KakoTalk : portableSAM
-            </h4>
-            <h4>
-              <i className="fab fa-facebook-messenger" />
-              hanSaemLicht
-            </h4>
-          </div>
-        </div>
-      </div>
-
-      */
