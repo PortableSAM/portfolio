@@ -1,6 +1,13 @@
 .dropdown-menu {
-  width: 180px;
+  width: 245px;
   text-align: left;
+}
+
+.dropdown-menu > a:nth-child(9) {
+  margin-left: 15px;
+  text-decoration: none;
+  color: lightslategray;
+  font-family: "Oswald", Arial, Helvetica, sans-serif;
 }
 
 /* 요소 | http://localhost:3000/todolist */
@@ -37,4 +44,16 @@
   text-decoration: none;
   color: lightslategray;
   font-family: "Oswald", Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 500px) {
+  .container > div:nth-child(1) > div:nth-child(1) > h2:nth-child(1) {
+    width: 350px;
+  }
+  .mr-auto {
+    text-align: start;
+  }
+  .about-text > p:nth-child(1) {
+    letter-spacing: 2px;
+  }
 }

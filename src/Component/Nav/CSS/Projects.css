@@ -51,6 +51,10 @@
   transition: 1s;
 }
 
+.container > div:nth-child(1) > div:nth-child(1) > h2:nth-child(1) {
+  width: 540px;
+}
+
 /*
 .col-lg-8 i {
   color: #343a40;

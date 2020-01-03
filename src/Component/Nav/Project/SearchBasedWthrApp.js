@@ -7,7 +7,7 @@ function Clock() {
     <Container>
       <Row>
         <Col lg={4} md={"auto"} sm={"auto"}>
-          <h2> Current Weather App</h2>
+          <h2>Search Based Weather Info Web App</h2>
         </Col>
         <Col></Col>
         <Col></Col>
@@ -44,7 +44,7 @@ function Clock() {
         <Col lg={8} md={"auto"} sm={"auto"}>
           <p>
             <a
-              href="https://currentweatherapp-b65b2.firebaseapp.com/"
+              href="https://search-based-weather-info.web.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -53,7 +53,7 @@ function Clock() {
           </p>
           <p>
             <a
-              href="https://github.com/PortableSAM/CurrentWthrApp"
+              href="https://github.com/PortableSAM/Search-based-Weather-Info"
               target="_blank"
               rel="noopener noreferrer"
             >

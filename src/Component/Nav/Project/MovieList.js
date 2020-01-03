@@ -50,7 +50,7 @@ function Clock() {
         <Col lg={8} md={"auto"} sm={"auto"}>
           <p>
             <a
-              href="https://github.com/PortableSAM/Movie_App"
+              href="https://movielistapp-b39ef.firebaseapp.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -59,7 +59,7 @@ function Clock() {
           </p>
           <p>
             <a
-              href="https://movielistapp-b39ef.firebaseapp.com/"
+              href="https://github.com/PortableSAM/Movie_App"
               target="_blank"
               rel="noopener noreferrer"
             >
