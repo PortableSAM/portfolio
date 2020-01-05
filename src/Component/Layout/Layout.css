@@ -3,6 +3,19 @@
   text-align: left;
 }
 
+.dropdown-menu a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: lightslategray;
+  font-family: "Oswald", Arial, Helvetica, sans-serif;
+}
+
+.dropdown-menu a:hover {
+  text-decoration: none;
+  color: darkgray;
+}
+
+/*
 .dropdown-menu > a:nth-child(9) {
   margin-left: 15px;
   text-decoration: none;
@@ -11,7 +24,7 @@
 }
 
 /* 요소 | http://localhost:3000/todolist */
-
+/*
 .dropdown-menu > a:nth-child(7) {
   margin-left: 15px;
   text-decoration: none;
@@ -20,7 +33,7 @@
 }
 
 /* 요소 | http://localhost:3000/todolist */
-
+/*
 .dropdown-menu > a:nth-child(5) {
   margin-left: 15px;
   text-decoration: none;
@@ -29,7 +42,7 @@
 }
 
 /* 요소 | http://localhost:3000/todolist */
-
+/*
 .dropdown-menu > a:nth-child(3) {
   margin-left: 15px;
   text-decoration: none;
@@ -38,13 +51,13 @@
 }
 
 /* 요소 | http://localhost:3000/todolist */
-
+/*
 .dropdown-menu > a:nth-child(1) {
   margin-left: 15px;
   text-decoration: none;
   color: lightslategray;
   font-family: "Oswald", Arial, Helvetica, sans-serif;
-}
+}*/
 
 @media screen and (max-width: 500px) {
   .container > div:nth-child(1) > div:nth-child(1) > h2:nth-child(1) {
