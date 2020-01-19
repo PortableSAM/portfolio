@@ -6,7 +6,8 @@ import {
   MovieList,
   ToDoList,
   SBWthrApp,
-  CounterApp
+  CounterApp,
+  NoteApp
 } from "../Nav/Project/index";
 import LandingPage from "./../Landing/LandingPage";
 import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
@@ -45,6 +46,8 @@ export default class Layout extends React.Component {
                   <Link to="/SBWthrApp">Search Based Weather Info Web App</Link>
                   <NavDropdown.Divider />
                   <Link to="/counterApp">Counter App(TypeScript)</Link>
+                  <NavDropdown.Divider />
+                  <Link to="/noteApp">Note App(with React, FireStore)</Link>
                 </NavDropdown>
               </Nav>
             </Navbar.Collapse>
@@ -59,6 +62,7 @@ export default class Layout extends React.Component {
             <Route path="/todolist" component={ToDoList} />
             <Route path="/SBWthrApp" component={SBWthrApp} />
             <Route path="/counterApp" component={CounterApp} />
+            <Route path="/noteApp" component={NoteApp} />
           </Switch>
         </div>
       </Router>
