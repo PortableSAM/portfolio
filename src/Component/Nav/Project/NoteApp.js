@@ -1,6 +1,5 @@
 import React from "react";
 import { Styles } from "./Clock";
-import { Link } from "react-router-dom";
 
 function NoteApp() {
   return (
