@@ -34,20 +34,20 @@ export default function CRUD_Table() {
           </section>
         </main>
         <footer>
-          <Link
-            to="https://project2020-2.web.app"
+          <a
+            href="https://project2020-2.web.app"
             target="_blank"
             rel="noopener noreferrer"
           >
             <i className="fas fa-link" />
-          </Link>
-          <Link
-            to="https://github.com/PortableSAM/Project2020-3"
+          </a>
+          <a
+            href="https://github.com/PortableSAM/Project2020-3"
             target="_blank"
             rel="noopener noreferrer"
           >
             <i className="fab fa-github-square" />
-          </Link>
+          </a>
         </footer>
       </div>
     </Styles>

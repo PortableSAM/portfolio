@@ -39,20 +39,20 @@ function Clock() {
           </section>
         </main>
         <footer>
-          <Link
-            to="https://movielistapp-b39ef.firebaseapp.com/"
+          <a
+            href="https://movielistapp-b39ef.firebaseapp.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <i className="fas fa-link" />
-          </Link>
-          <Link
-            to="https://github.com/PortableSAM/Movie_App"
+          </a>
+          <a
+            href="https://github.com/PortableSAM/Movie_App"
             target="_blank"
             rel="noopener noreferrer"
           >
             <i className="fab fa-github-square" />
-          </Link>
+          </a>
         </footer>
       </div>
     </Styles>

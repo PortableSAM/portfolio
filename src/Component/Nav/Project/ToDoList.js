@@ -33,20 +33,20 @@ function TodoList() {
           </section>
         </main>
         <footer>
-          <Link
-            to="https://todolist-df22d.firebaseapp.com/"
+          <a
+            href="https://todolist-df22d.firebaseapp.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <i className="fas fa-link" />
-          </Link>
-          <Link
-            to="https://github.com/PortableSAM/ToDoList-React"
+          </a>
+          <a
+            href="https://github.com/PortableSAM/ToDoList-React"
             target="_blank"
             rel="noopener noreferrer"
           >
             <i className="fab fa-github-square" />
-          </Link>
+          </a>
         </footer>
       </div>
     </Styles>

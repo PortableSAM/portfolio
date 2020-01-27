@@ -33,20 +33,20 @@ export function Clock() {
           </section>
         </main>
         <footer>
-          <Link
-            to="https://portablesam.github.io/Clock-App/"
+          <a
+            href="https://portablesam.github.io/Clock-App/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <i className="fas fa-link" />
-          </Link>
-          <Link
-            to="https://github.com/PortableSAM/Clock-App"
+          </a>
+          <a
+            href="https://github.com/PortableSAM/Clock-App"
             target="_blank"
             rel="noopener noreferrer"
           >
             <i className="fab fa-github-square" />
-          </Link>
+          </a>
         </footer>
       </div>
     </Styles>

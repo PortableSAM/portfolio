@@ -27,21 +27,21 @@ export default function Clock() {
           </section>
         </main>
         <footer>
-          <Link
-            to="https://counter-app-d0e29.web.app/"
+          <a
+            href="https://counter-app-d0e29.web.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <i className="fas fa-link" />
-          </Link>
+          </a>
 
-          <Link
-            to="https://github.com/PortableSAM/Counter-App"
+          <a
+            href="https://github.com/PortableSAM/Counter-App"
             target="_blank"
             rel="noopener noreferrer"
           >
             <i className="fab fa-github-square" />
-          </Link>
+          </a>
         </footer>
       </div>
     </Styles>

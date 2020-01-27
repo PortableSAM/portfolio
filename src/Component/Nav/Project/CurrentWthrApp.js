@@ -33,20 +33,20 @@ function Clock() {
           </section>
         </main>
         <footer>
-          <Link
-            to="https://currentweatherapp-b65b2.firebaseapp.com/"
+          <a
+            href="https://currentweatherapp-b65b2.firebaseapp.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <i className="fas fa-link" />
-          </Link>
-          <Link
-            to="https://github.com/PortableSAM/CurrentWthrApp"
+          </a>
+          <a
+            href="https://github.com/PortableSAM/CurrentWthrApp"
             target="_blank"
             rel="noopener noreferrer"
           >
             <i className="fab fa-github-square" />
-          </Link>
+          </a>
         </footer>
       </div>
     </Styles>

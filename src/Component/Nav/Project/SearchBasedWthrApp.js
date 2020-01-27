@@ -33,20 +33,20 @@ function SearchBasedWthrApp() {
           </section>
         </main>
         <footer>
-          <Link
-            to="https://search-based-weather-info.web.app/"
+          <a
+            href="https://search-based-weather-info.web.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <i className="fas fa-link" />
-          </Link>
-          <Link
-            to="https://github.com/PortableSAM/Search-based-Weather-Info"
+          </a>
+          <a
+            href="https://github.com/PortableSAM/Search-based-Weather-Info"
             target="_blank"
             rel="noopener noreferrer"
           >
             <i className="fab fa-github-square" />
-          </Link>
+          </a>
         </footer>
       </div>
     </Styles>

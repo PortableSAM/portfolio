@@ -40,21 +40,21 @@ function NoteApp() {
           </section>
         </main>
         <footer>
-          <Link
-            to="https://noteapp-7c7ce.web.app"
+          <a
+            href="https://noteapp-7c7ce.web.app"
             target="_blank"
             rel="noopener noreferrer"
           >
             <i className="fas fa-link" />
-          </Link>
+          </a>
 
-          <Link
-            to="https://github.com/PortableSAM/NoteApp"
+          <a
+            href="https://github.com/PortableSAM/NoteApp"
             target="_blank"
             rel="noopener noreferrer"
           >
             <i className="fab fa-github-square" />
-          </Link>
+          </a>
         </footer>
       </div>
     </Styles>
