@@ -1,54 +1,69 @@
 import React from "react";
-import "./CSS/Contact.css";
 import img from "./About/Img/img";
-import { Container, Image, Col, Row } from "react-bootstrap";
+import styled from "styled-components";
 
 export default class Contact extends React.Component {
   render() {
     return (
-      <Container>
-        <Row>
-          <Col lg={4} md={"auto"} sm={"auto"}>
-            <h2 style={{ textAlign: "left", margin: "0", padding: "5px" }}>
-              Contact
-            </h2>
-          </Col>
-          <Col></Col>
-          <Col></Col>
-        </Row>
-        <Row>
-          <Col lg={3} md={"auto"} sm={"auto"}></Col>
-          <Col lg={6} md={"auto"} sm={"auto"}>
-            <Row>
-              <Col></Col>
-              <Col lg={8} md={"auto"} sm={"auto"}>
-                <Image
-                  src={img}
-                  roundedCircle
-                  style={{ width: "150px", height: "150px" }}
-                />
-                <Col lg={"auto"} md={"auto"} sm={"auto"}>
-                  <h4>
-                    <i className="fas fa-envelope-square" />
-                    hanmti00@naver.com
-                  </h4>
-                  <h4>
-                    <i className="fas fa-comment-dots" />
-                    KakoTalk : portableSAM
-                  </h4>
-                  <h4>
-                    <i className="fab fa-facebook-messenger" />
-                    hanSaemLicht
-                  </h4>
-                </Col>
-              </Col>
-              <Col></Col>
-            </Row>
-            <Col />
-          </Col>
-          <Col lg={3} md={"auto"} sm={"auto"}></Col>
-        </Row>
-      </Container>
+      <ContacInfo>
+        <ContacTitle>
+          <h2>Contact</h2>
+        </ContacTitle>
+        <section>
+          <img src={img} alt="pic" />
+          <h4>
+            <i className="fas fa-envelope-square" />
+            hanmti00@naver.com
+          </h4>
+          <h4>
+            <i className="fas fa-comment-dots" />
+            KakoTalk : portableSAM
+          </h4>
+          <h4>
+            <i className="fab fa-facebook-messenger" />
+            hanSaemLicht
+          </h4>
+        </section>
+      </ContacInfo>
     );
   }
 }
+const ContacInfo = styled.div`
+  margin-top: 50px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  & section {
+    margin-top: 20px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    & img {
+      margin: 10px;
+      width: 200px;
+      height: 200px;
+      border-radius: 10em;
+    }
+    & h4 {
+      margin: 5px;
+      width: 305px;
+      text-align: left;
+      & i {
+        padding-right: 20px;
+      }
+    }
+  }
+`;
+
+const ContacTitle = styled.div`
+  margin-top: 10px;
+  width: 700px;
+  display: flex;
+  & h2 {
+    margin: 0;
+    padding: 5px;
+    width: 150px;
+  }
+`;
