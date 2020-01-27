@@ -63,6 +63,10 @@ export const Styles = styled.div`
     flex-direction: column;
     border-radius: 5px;
     background-color: #d4d7ff;
+    @media (max-width: 450px) {
+      margin-top: 50px;
+      width: 390px;
+    }
     & h2,
     header {
       display: flex;
@@ -72,16 +76,16 @@ export const Styles = styled.div`
     }
     & main {
       margin: 10px 0;
-      padding: 5px 0;
+      padding: 5px 10px;
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
-      justify-content: space-around;
+      justify-content: space-between;
       background-color: #ccf7af5c;
       border-radius: 5px;
       & ul {
-        padding-left: none;
         list-style: none;
+        text-align: left;
       }
     }
     & footer {

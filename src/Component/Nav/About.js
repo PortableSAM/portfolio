@@ -63,6 +63,9 @@ const AboutContainer = styled.div`
   margin-top: 50px;
   padding: 10px;
   width: 1140px;
+  @media (max-width: 450px) {
+    width: 400px;
+  }
   & h4 {
     text-align: left;
     margin: 0;
@@ -84,12 +87,19 @@ const AboutInfo = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  @media (max-width: 450px) {
+    flex-direction: column;
+    align-items: center;
+  }
   & article {
     padding: 5px;
     display: flex;
     flex-direction: column;
     width: 220px;
     align-items: center;
+    @media (max-width: 450px) {
+      width: 300px;
+    }
     & img {
       margin-top: 50px;
       margin-bottom: 10px;
@@ -100,6 +110,9 @@ const AboutInfo = styled.div`
 const InfoRight = styled.div`
   padding: 10px;
   width: 700px;
+  @media (max-width: 450px) {
+    width: 390px;
+  }
 `;
 const EduTitle = styled.div`
   display: flex;

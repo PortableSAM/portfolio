@@ -34,12 +34,16 @@ const ContacInfo = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+
   & section {
     margin-top: 20px;
     width: 700px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    @media (max-width: 500px) {
+      width: 390px;
+    }
     & img {
       margin: 10px;
       width: 200px;
@@ -61,6 +65,9 @@ const ContacTitle = styled.div`
   margin-top: 10px;
   width: 700px;
   display: flex;
+  @media (max-width: 450px) {
+    width: 390px;
+  }
   & h2 {
     margin: 0;
     padding: 5px;
