@@ -1,21 +1,16 @@
 import React from "react";
-import { Jumbotron, Container, Row, Col } from "react-bootstrap";
-import "../CSS/Projects.css";
+import { Styles } from "./Clock";
+import { Link } from "react-router-dom";
 
 function NoteApp() {
   return (
-    <Container>
-      <Row>
-        <Col lg={4} md={"auto"} sm={"auto"}>
+    <Styles>
+      <div className="project-container">
+        <header>
           <h2> Note App(with React, FireStore)</h2>
-        </Col>
-        <Col></Col>
-        <Col></Col>
-      </Row>
-      <hr style={{ borderTop: "2px solid #343a40" }} />
-      <Jumbotron style={{ marginBottom: "0" }}>
-        <Row>
-          <Col lg={"auto"} md={"auto"} sm={"auto"}>
+        </header>
+        <main>
+          <section>
             <h4>Development environment</h4>
             <ul>
               <li>- OS: Windows</li>
@@ -23,54 +18,46 @@ function NoteApp() {
               <li>- Language: JavaScript</li>
               <li>- Library: React</li>
             </ul>
-          </Col>
-          <Col lg={"auto"} md={"auto"} sm={"auto"}>
+          </section>
+          <section>
             <h4>Use Thirdparty Library </h4>
             <ul>
               <li>- CSS : React Strap</li>
               <li>- React Router Dom</li>
             </ul>
-          </Col>
-          <Col lg={"auto"} md={"auto"} sm={"auto"}>
+          </section>
+          <section>
             <h4>Use Database </h4>
             <ul>
               <li>- Cloud FireStore</li>
             </ul>
-          </Col>
-          <Col lg={"auto"} md={"auto"} sm={"auto"}>
+          </section>
+          <section>
             <h4>Development Platform</h4>
             <ul>
               <li>- Firebase Hosting</li>
             </ul>
-          </Col>
-        </Row>
-      </Jumbotron>
-      <hr style={{ borderTop: "2px solid #343a40" }} />
-      <Row>
-        <Col></Col>
-        <Col lg={8} md={"auto"} sm={"auto"}>
-          <p>
-            <a
-              href="https://noteapp-7c7ce.web.app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fas fa-link" />
-            </a>
-          </p>
-          <p>
-            <a
-              href="https://github.com/PortableSAM/NoteApp"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fab fa-github-square" />
-            </a>
-          </p>
-        </Col>
-        <Col></Col>
-      </Row>
-    </Container>
+          </section>
+        </main>
+        <footer>
+          <Link
+            to="https://noteapp-7c7ce.web.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fas fa-link" />
+          </Link>
+
+          <Link
+            to="https://github.com/PortableSAM/NoteApp"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fab fa-github-square" />
+          </Link>
+        </footer>
+      </div>
+    </Styles>
   );
 }
 
