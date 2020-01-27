@@ -14,7 +14,7 @@
 > Used design framework
 
 - React-Bootstrap
-
+- Styled Components
 
 > Development Platform
 
