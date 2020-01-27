@@ -7,7 +7,8 @@ import {
   ToDoList,
   SBWthrApp,
   CounterApp,
-  NoteApp
+  NoteApp,
+  CRUDTable
 } from "../Nav/Project/index";
 import LandingPage from "./../Landing/LandingPage";
 import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
@@ -51,6 +52,10 @@ export default class Layout extends React.Component {
                     <Link to="/counterApp">Counter App(TypeScript)</Link>
                     <NavDropdown.Divider />
                     <Link to="/noteApp">Note App(with React, FireStore)</Link>
+                    <NavDropdown.Divider />
+                    <Link to="/CRUDTable">
+                      CRUD Table(with React, FireStore)
+                    </Link>
                   </NavDropdown>
                 </Nav>
               </Navbar.Collapse>
@@ -66,6 +71,7 @@ export default class Layout extends React.Component {
               <Route path="/SBWthrApp" component={SBWthrApp} />
               <Route path="/counterApp" component={CounterApp} />
               <Route path="/noteApp" component={NoteApp} />
+              <Route path="/CRUDTable" component={CRUDTable} />
             </Switch>
           </LayOutPage>
         </Styles>
