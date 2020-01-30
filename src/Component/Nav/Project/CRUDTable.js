@@ -20,6 +20,12 @@ export default function CRUD_Table() {
             </ul>
           </section>
           <section>
+            <h4>Use Authentication</h4>
+            <ul>
+              <li>- Firebase Authentication</li>
+            </ul>
+          </section>
+          <section>
             <h4>Use Database</h4>
             <ul>
               <li>- Cloud FireStore</li>
